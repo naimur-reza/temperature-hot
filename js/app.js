@@ -28,7 +28,7 @@ const displayTemp = (data) =>{
 }
 
     document.getElementById('search-btn').addEventListener('click',function(){
-    const temperature = document.CgetElementById('temperature')
+    const temperature = document.getElementById('temperature')
     const searchField = document.getElementById('search-field').value;
     loadTemperature(searchField);
 
